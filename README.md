@@ -1,5 +1,5 @@
 # AON-MUD
-This is a project built for the game: age of the navagation
+This is a project built for the game: the age of navigation
 
 ### circom
 snark to verify coordinates
