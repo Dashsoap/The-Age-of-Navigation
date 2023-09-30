@@ -1,0 +1,8 @@
+[
+    {
+        "method": "getSchema",
+        "name": "ZKConfig",
+        "params": "",
+        "msg": "scheme: "
+    }
+]

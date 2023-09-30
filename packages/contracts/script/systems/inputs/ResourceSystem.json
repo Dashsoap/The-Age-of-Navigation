@@ -1,0 +1,8 @@
+[
+    {
+        "method": "getValue",
+        "name": "MapConfigv2",
+        "params": "",
+        "msg": "print MapConfig difficulty"
+    }
+]

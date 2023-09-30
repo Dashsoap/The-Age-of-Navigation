@@ -1,0 +1,25 @@
+[
+    {
+        "method": "getEntitiesWithValue",
+        "name": "GuildCrestPlayer",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "before Create Guild"
+    },
+    {
+        "method": "system",
+        "name": "CreateGuild",
+        "params": {
+            "{flag}": "3_star_2_line",
+            "{name}": "Axe Gang",
+            "{description}": "The Guild President can post the recruitment information of the guild here.",
+            "{regime}": 0
+        },
+        "msg": "executing create guild"
+    },
+    {
+        "method": "getEntitiesWithValue",
+        "name": "GuildCrestPlayer",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "after Create Guild"
+    }
+]

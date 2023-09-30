@@ -1,0 +1,14 @@
+out/
+cache/
+node_modules/
+bindings/
+artifacts/
+deployments
+abi/
+types/
+broadcast/
+.env
+private_key
+logs/
+deploy.json
+world_address.txt

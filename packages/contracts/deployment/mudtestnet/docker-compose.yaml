@@ -1,0 +1,18 @@
+version: '2.0'
+
+services:
+  snapshot:
+    image: jpccr.ccs.tencentyun.com/llm-town/mud-ecs-snapshot:0.1.0
+    entrypoint:
+      - /service/ecs-snapshot
+    command:
+      - -ws-url=wss://follower.testnet-chain.linfra.xyz
+      - -port=8545
+      - -snapshot-block-interval=600
+      - -block=25678170
+      - -initial-sync-block-batch-size=1000
+      - -initial-sync-block-batch-sync-timeout=20
+      - -worldAddresses=0x0fBB0595Fa70905ad04511a49e2f4ECf464AAd2A
+    ports:
+      - "8546:8546"
+    restart: always

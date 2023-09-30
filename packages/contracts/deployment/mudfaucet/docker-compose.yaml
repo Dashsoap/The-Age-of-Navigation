@@ -1,0 +1,18 @@
+version: '2.0'
+
+services:
+  snapshot:
+    image: jpccr.ccs.tencentyun.com/llm-town/mud-faucet:0.1.0
+    entrypoint:
+      - /service/faucet
+    command:
+      - -ws-url=wss://follower.testnet-chain.linfra.xyz
+      - -port=8547
+      - -faucet-private-key=68fbceefc19763c8924ce08782487bdb6b84b6ad7797d59b42fbea410a1b8c36
+      - -drip-amount=0.1
+      - -drip-frequency=60
+      - -drip-limit=1
+      - -dev=true
+    ports:
+      - "8548:8548"
+    restart: always

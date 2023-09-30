@@ -1,0 +1,1 @@
+python3 -u script/generate_deploy.py

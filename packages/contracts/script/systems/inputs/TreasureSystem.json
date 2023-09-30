@@ -1,0 +1,114 @@
+[
+    {
+        "method": "getEntitiesWithValue",
+        "name": "PlayerBelonging",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "before pickUp"
+    },
+    {
+        "method": "system",
+        "name": "PickUpTreasurev2",
+        "params": {
+            "{realHash}": 1760186212227967992807915426465403124144027458072790513337346726966364932656,
+            "{fogHash}": 6548174236596742820902339565391718630727264115530773170571288163083533194409,
+            "{width}": 50,
+            "{height}": 100,
+            "{terrainSeed}": 11111,
+            "{fogSeed}": 44444,
+            "{treasureSeed}": 33333,
+            "{terrainPerlin}": 8644,
+            "{treasurePerlin}": 6238,
+            "{a[0]}": 11538206455640720466640711837297826683524684026372983429946026872045322593968,
+            "{a[1]}": 3084973448710277781308357174201635783464759063868187868846563219816703168192,
+            "{b[0][0]}": 14930027661629835727156696525743391942085658614536307097864369254869629065885,
+            "{b[0][1]}": 4978354910553624343434497404777764576121103454186573889821712895202387407651,
+            "{b[1][0]}": 11372744352038246689165463543868659985949902532892695778413523550830778076365,
+            "{b[1][1]}": 15653173690173926315317188297896327927110188042191661565608910270552655942006,
+            "{c[0]}": 4024965682387492577492880537172505462923827106192464161576239102164553296249,
+            "{c[1]}": 1620629137920086813252406903747754300169890588272636513513267757496838294316
+        },
+        "msg": "executing PickUpTreasurev2System"
+    },
+    {
+        "method": "getEntitiesWithValue",
+        "name": "PlayerBelonging",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "after pickUp"
+    },
+    {
+        "method": "getValue",
+        "name": "Treasurev2",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasure values"
+    },
+    {
+        "method": "getValue",
+        "name": "TreasureEffectv2",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasure effect values"
+    },
+    {
+        "method": "getValue",
+        "name": "TreasureEffectConfig",
+        "params": "106018158413579679331691250663539261865842612798171782436137295654408946788846",
+        "msg": "treasure effect config values"
+    },
+    {
+        "method": "getValue",
+        "name": "TreasureTimer",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasure timer values"
+    },
+    {
+        "method": "system",
+        "name": "BoundTreasure",
+        "params": {
+            "{treasureId}": "6548174236596742820902339565391718630727264115530773170571288163083533194409"
+        },
+        "msg": "executing BoundTreasure"
+    },
+    {
+        "method": "has",
+        "name": "TreasureBounded",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasureBounded info"
+    },
+    {
+        "method": "getEntitiesWithValue",
+        "name": "BuffBelonging",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "buffs after treasureBound"
+    },
+    {
+        "method": "getValue",
+        "name": "TreasureTimer",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasure timer values"
+    },
+    {
+        "method": "system",
+        "name": "UnboundTreasure",
+        "params": {
+            "{treasureId}": "6548174236596742820902339565391718630727264115530773170571288163083533194409"
+        },
+        "msg": "executing UnboundTreasure"
+    },
+    {
+        "method": "has",
+        "name": "TreasureBounded",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasureBounded info"
+    },
+    {
+        "method": "getEntitiesWithValue",
+        "name": "BuffBelonging",
+        "params": "1286220057022244662657000156771147503532351298057",
+        "msg": "buffs after treasureUnbound"
+    },
+    {
+        "method": "getValue",
+        "name": "TreasureTimer",
+        "params": "6548174236596742820902339565391718630727264115530773170571288163083533194409",
+        "msg": "treasure timer values"
+    }
+]
